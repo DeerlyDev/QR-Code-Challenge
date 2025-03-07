@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Css Variables*/
+:root {
+  --page-background: hsl(212, 45%, 89%);
+  --paragraph-text-color: hsl(216, 15%, 48%);
+  --heading-color: hsl(218, 44%, 22%);
+  --card-bg: hsl(0, 0%, 100%);
+
+  --font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--page-background);
+  font-family: var(--font-family);
+  padding: 10px;
+}
+.card {
+  background-color: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 1.1rem;
+
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.qr-code img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.content h2 {
+  font-size: 1.25rem;
+  color: var(--heading-color);
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 0.9rem;
+  color: var(--paragraph-text-color);
+  margin-bottom: 10px;
+}
+
+/* Attribution style */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  right: 25%;
+  margin-top: 5px;
+  line-height: 2;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Unique style for "Dreni" */
+.attribution a:last-of-type {
+  font-weight: bold;
+  color: #ff6600;
+  font-style: italic;
+  text-decoration: none;
+  background-color: rgba(255, 102, 0, 0.1);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
