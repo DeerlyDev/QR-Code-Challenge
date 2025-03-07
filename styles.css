@@ -86,10 +86,10 @@ body {
 /* Unique style for "Dreni" */
 .attribution a:last-of-type {
   font-weight: bold;
-  color: #6464ac;
+  color: #6565b8;
   font-style: italic;
   text-decoration: none;
-  background-color: #bdbddb;
+  background-color: #c5c5dd;
   padding: 2px 5px;
   border-radius: 5px;
 }
